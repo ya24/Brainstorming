@@ -19,6 +19,6 @@
 			<attribute name="owner.project.facets" value="jst.web.jstl"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="E:/web project myeclipse/Brainstorming/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="E:/web project myeclipse/myGit/Brainstorming/Brainstorming/lib/sqljdbc4.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
