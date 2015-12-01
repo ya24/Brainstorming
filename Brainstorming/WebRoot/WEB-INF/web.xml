@@ -21,6 +21,13 @@
     <servlet-name>Information</servlet-name>
     <servlet-class>test.servlet.Information</servlet-class>
   </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InfoServlet</servlet-name>
+    <servlet-class>test.servlet.InfoServlet</servlet-class>
+  </servlet>
+
 
   
 
@@ -37,6 +44,10 @@
   <servlet-mapping>
     <servlet-name>Information</servlet-name>
     <url-pattern>/testJSP/Information</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoServlet</servlet-name>
+    <url-pattern>/testJSP/InfoServlet</url-pattern>
   </servlet-mapping>
  
 
